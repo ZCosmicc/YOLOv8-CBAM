@@ -1,0 +1,14 @@
+path: C:\Users\Nameless\Downloads\Compressed\NewTextile Defect Detection.v1i.yolov8
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['damage', 'oil stain', 'stain', 'wrinkle']
+
+roboflow:
+  workspace: zco
+  project: defect-detection-gv9lj
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/zco/defect-detection-gv9lj/dataset/2
