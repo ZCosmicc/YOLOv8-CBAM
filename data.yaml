@@ -1,4 +1,4 @@
-path: C:\Users\Nameless\Downloads\Compressed\NewTextile Defect Detection.v1i.yolov8
+path: /kaggle/input/yolov8-cbam
 train: ../train/images
 val: ../valid/images
 test: ../test/images
